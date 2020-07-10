@@ -1,18 +1,29 @@
 package com.ga.entity;
 
+import javax.persistence.*;
+
+
+@Entity
+@Table(name="users")
 public class User {
-    private long userId;
+    @Id
+    @Column(name = "user_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long userId;
+
+    @Column(unique = true, nullable = false)
     private String username;
+
+    @Column(name = "password", nullable = false)
     private String password;
 
-    public User(){
-    }
+    public User() {}
 
-    public long getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(long userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
@@ -29,11 +40,6 @@ public class User {
     }
 
     public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public User(String username, String password){
-        this.username = username;
         this.password = password;
     }
 }
