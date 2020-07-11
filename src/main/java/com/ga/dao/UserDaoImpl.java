@@ -80,4 +80,38 @@ public class UserDaoImpl implements UserDao {
         return returnUser;
     }
 
+    @Override
+    public User deleteUser(Long userId) {
+        User deletedUser = null;
+        Session session = sessionFactory.getCurrentSession();
+
+        try{
+            session.beginTransaction();
+            deletedUser = session.get(User.class, userId);
+
+            session.delete(deletedUser);
+            session.getTransaction().commit();
+        }
+        finally {
+            session.close();
+        }
+        return deletedUser;
+    }
+
+    @Override
+    public User getUserByUsername(String username) {
+        User user = null;
+
+        Session session = sessionFactory.getCurrentSession();
+
+        try{
+            session.beginTransaction();
+            user = (User) session.createQuery("FROM User u WHERE u.username = '" + username + "'").uniqueResult();
+        }
+        finally {
+            session.close();
+        }
+        return user;
+    }
+
 }
