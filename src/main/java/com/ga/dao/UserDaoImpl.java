@@ -1,6 +1,7 @@
 package com.ga.dao;
 
 import com.ga.entity.User;
+import com.ga.entity.UserRole;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,8 @@ public class UserDaoImpl implements UserDao {
     @Autowired
     private SessionFactory sessionFactory;
 
+    @Autowired
+    private UserRoleDao userRoleDao;
 
     @Override
     public List<User> listUsers() {
@@ -32,9 +35,14 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User signup(User user) {
+        String roleName = user.getUserRole().getName();
+        UserRole userRole = userRoleDao.getUserRole(roleName);
+
         Session session = sessionFactory.getCurrentSession();
         try {
             session.beginTransaction();
+
+            user.setUserRole(userRole);
             session.save(user);
 
             session.getTransaction().commit();
@@ -113,5 +121,4 @@ public class UserDaoImpl implements UserDao {
         }
         return user;
     }
-
 }

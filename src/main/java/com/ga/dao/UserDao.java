@@ -1,6 +1,7 @@
 package com.ga.dao;
 
 import com.ga.entity.User;
+import com.ga.entity.UserRole;
 
 import java.util.List;
 
