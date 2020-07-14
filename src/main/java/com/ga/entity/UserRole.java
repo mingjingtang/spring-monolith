@@ -16,8 +16,9 @@ public class UserRole {
     @Column(unique = true, nullable = false)
     private String name;
 
+
     @JsonIgnore
-    @OneToMany(mappedBy = "userRole", cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "userRole", cascade = CascadeType.ALL)
     private List<User> users;
 
     public List<User> getUsers() {

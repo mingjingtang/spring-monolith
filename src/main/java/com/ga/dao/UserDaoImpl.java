@@ -1,5 +1,6 @@
 package com.ga.dao;
 
+import com.ga.entity.Course;
 import com.ga.entity.User;
 import com.ga.entity.UserRole;
 import org.hibernate.Session;
@@ -115,6 +116,29 @@ public class UserDaoImpl implements UserDao {
         try{
             session.beginTransaction();
             user = (User) session.createQuery("FROM User u WHERE u.username = '" + username + "'").uniqueResult();
+        }
+        finally {
+            session.close();
+        }
+        return user;
+    }
+
+    @Override
+    public User addCourse(String username, int courseId) {
+        Course course = null;
+        User user = null;
+
+        Session session = sessionFactory.getCurrentSession();
+
+        try{
+            session.beginTransaction();
+
+            user = (User)session.createQuery("FROM User u WHERE u.username = '"+ username +"'").uniqueResult();
+            course = session.get(Course.class, courseId);
+            user.addCourse(course);
+            session.update(user);
+
+            session.getTransaction().commit();
         }
         finally {
             session.close();
