@@ -18,7 +18,7 @@ public class UserRole {
 
 
     @JsonIgnore
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "userRole", cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "userRole", cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.REFRESH})
     private List<User> users;
 
     public List<User> getUsers() {

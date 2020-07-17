@@ -7,111 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d23003-19b9-4f43-a2ef-e345ee4f6a53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/config/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/config/AppDispatcherServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/config/SecurityConfigInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/controller/CourseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/controller/UserProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/controller/UserRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/CourseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/CourseDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/UserProfileDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/UserProfileDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/UserRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/dao/UserRoleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/entity/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/entity/UserProfile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/entity/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/CourseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/CourseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/UserProfileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/UserProfileServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/UserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/UserRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ga/service/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/config/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/config/AppDispatcherServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/config/SecurityConfigInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/controller/CourseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/controller/UserProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/controller/UserRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/CourseDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/CourseDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/UserProfileDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/UserProfileDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/UserRoleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/dao/UserRoleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/entity/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/entity/UserProfile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/entity/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/CourseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/CourseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/UserProfileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/UserProfileServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/UserRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/UserRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/classes/com/ga/service/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/hibernate-core-5.4.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jackson-annotations-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jackson-core-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jackson-databind-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jackson-datatype-hibernate4-2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-orm-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-security-config-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-security-core-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-security-web-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-tx-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-monolith/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ga/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ga/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ga/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ga/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ga/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ga/entity/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ga/service/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ga/service/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ga/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ga/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ga/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ga/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +165,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.090862684" />
+          <option name="contentProportion" value="0.21082185" />
           <treeState>
             <expand>
               <path>
@@ -315,62 +217,78 @@
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="2536" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594326824206" />
-    <state x="2841" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1594682300019">
+    <state x="2841" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1594957886789">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state x="2841" y="212" key="#com.intellij.ide.util.MemberChooser/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594682300019" />
+    <state x="2841" y="212" key="#com.intellij.ide.util.MemberChooser/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594957886789" />
     <state x="2747" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594325407726">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="2747" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594325407726" />
-    <state width="1780" height="409" key="GridCell.Tab.0.bottom" timestamp="1594866403449">
+    <state width="1996" height="283" key="GridCell.Tab.0.bottom" timestamp="1595001765950">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.0.bottom/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403449" />
-    <state width="1780" height="409" key="GridCell.Tab.0.center" timestamp="1594866403448">
+    <state width="1996" height="283" key="GridCell.Tab.0.bottom/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765950" />
+    <state width="1996" height="283" key="GridCell.Tab.0.center" timestamp="1595001765949">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.0.center/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403448" />
-    <state width="1780" height="409" key="GridCell.Tab.0.left" timestamp="1594866403446">
+    <state width="1996" height="283" key="GridCell.Tab.0.center/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765949" />
+    <state width="1996" height="283" key="GridCell.Tab.0.left" timestamp="1595001765948">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.0.left/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403446" />
-    <state width="1780" height="409" key="GridCell.Tab.0.right" timestamp="1594866403448">
+    <state width="1996" height="283" key="GridCell.Tab.0.left/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765948" />
+    <state width="1996" height="283" key="GridCell.Tab.0.right" timestamp="1595001765950">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.0.right/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403448" />
-    <state width="1780" height="409" key="GridCell.Tab.1.bottom" timestamp="1594866403450">
+    <state width="1996" height="283" key="GridCell.Tab.0.right/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765950" />
+    <state width="1545" height="488" key="GridCell.Tab.1.bottom" timestamp="1595001765926">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.1.bottom/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403450" />
-    <state width="1780" height="409" key="GridCell.Tab.1.center" timestamp="1594866403450">
+    <state width="1545" height="488" key="GridCell.Tab.1.bottom/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765926" />
+    <state width="1545" height="488" key="GridCell.Tab.1.center" timestamp="1595001765925">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.1.center/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403450" />
-    <state width="1780" height="409" key="GridCell.Tab.1.left" timestamp="1594866403449">
+    <state width="1545" height="488" key="GridCell.Tab.1.center/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765925" />
+    <state width="1545" height="488" key="GridCell.Tab.1.left" timestamp="1595001765924">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.1.left/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403449" />
-    <state width="1780" height="409" key="GridCell.Tab.1.right" timestamp="1594866403450">
+    <state width="1545" height="488" key="GridCell.Tab.1.left/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765924" />
+    <state width="1545" height="488" key="GridCell.Tab.1.right" timestamp="1595001765925">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.1.right/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403450" />
-    <state width="1780" height="409" key="GridCell.Tab.2.bottom" timestamp="1594866403452">
+    <state width="1545" height="488" key="GridCell.Tab.1.right/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765925" />
+    <state width="1545" height="488" key="GridCell.Tab.2.bottom" timestamp="1595001765927">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.2.bottom/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403452" />
-    <state width="1780" height="409" key="GridCell.Tab.2.center" timestamp="1594866403451">
+    <state width="1545" height="488" key="GridCell.Tab.2.bottom/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765927" />
+    <state width="1545" height="488" key="GridCell.Tab.2.center" timestamp="1595001765926">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.2.center/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403451" />
-    <state width="1780" height="409" key="GridCell.Tab.2.left" timestamp="1594866403451">
+    <state width="1545" height="488" key="GridCell.Tab.2.center/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765926" />
+    <state width="1545" height="488" key="GridCell.Tab.2.left" timestamp="1595001765926">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.2.left/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403451" />
-    <state width="1780" height="409" key="GridCell.Tab.2.right" timestamp="1594866403452">
+    <state width="1545" height="488" key="GridCell.Tab.2.left/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765926" />
+    <state width="1545" height="488" key="GridCell.Tab.2.right" timestamp="1595001765927">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state width="1780" height="409" key="GridCell.Tab.2.right/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594866403452" />
+    <state width="1545" height="488" key="GridCell.Tab.2.right/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765927" />
+    <state width="1545" height="488" key="GridCell.Tab.3.bottom" timestamp="1595001765930">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1545" height="488" key="GridCell.Tab.3.bottom/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765930" />
+    <state width="1545" height="488" key="GridCell.Tab.3.center" timestamp="1595001765928">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1545" height="488" key="GridCell.Tab.3.center/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765928" />
+    <state width="1545" height="488" key="GridCell.Tab.3.left" timestamp="1595001765928">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1545" height="488" key="GridCell.Tab.3.left/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765928" />
+    <state width="1545" height="488" key="GridCell.Tab.3.right" timestamp="1595001765929">
+      <screen x="2048" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1545" height="488" key="GridCell.Tab.3.right/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1595001765929" />
     <state x="2432" y="41" key="SettingsEditor" timestamp="1594152999970">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
@@ -383,10 +301,31 @@
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
     <state x="2653" y="257" key="run.anything.popup/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594673283172" />
-    <state x="2653" y="120" width="838" height="1032" key="search.everywhere.popup" timestamp="1594334637120">
+    <state x="2653" y="120" width="838" height="1032" key="search.everywhere.popup" timestamp="1594957848534">
       <screen x="2048" y="23" width="2048" height="1129" />
     </state>
-    <state x="2653" y="120" width="838" height="1032" key="search.everywhere.popup/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594334637120" />
+    <state x="2653" y="120" width="838" height="1032" key="search.everywhere.popup/2656.1175.1440.877/0.23.2048.1077/2048.23.2048.1129@2048.23.2048.1129" timestamp="1594957848534" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ga/controller/UserRoleController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ga/service/UserServiceImpl.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ga/service/UserServiceImpl.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spring_monolith$Tomcat_Server.ic" NAME="Tomcat Server Coverage Results" MODIFIED="1594350418564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
