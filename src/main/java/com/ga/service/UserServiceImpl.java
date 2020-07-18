@@ -1,5 +1,6 @@
 package com.ga.service;
 
+import com.ga.config.JwtUtil;
 import com.ga.dao.UserDao;
 import com.ga.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,19 +24,38 @@ public class UserServiceImpl implements UserService{
     @Qualifier("encoder")
     PasswordEncoder bCryptPasswordEncoder;
 
+    @Autowired
+    JwtUtil jwtUtil;
+
     @Override
     public List<User> listUser() {
         return userDao.listUsers();
     }
 
     @Override
-    public User signup(User user) {
-        return userDao.signup(user);
+    public String signup(User user) {
+        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+
+        if(userDao.signup(user) != null){
+            UserDetails userDetails = loadUserByUsername(user.getUsername());
+
+            return jwtUtil.generateToken(userDetails);
+        }
+        return null;
     }
 
+
     @Override
-    public Long login(User user) {
-        return userDao.login(user).getUserId();
+    public String login(User user) {
+        User foundUser = userDao.login(user);
+
+        if(foundUser != null && foundUser.getUserId() != null && bCryptPasswordEncoder.matches(user.getPassword(), foundUser.getPassword())) {
+            UserDetails userDetails = loadUserByUsername(user.getUsername());
+
+            return jwtUtil.generateToken(userDetails);
+        }
+
+        return null;
     }
 
     @Override
